@@ -26,7 +26,7 @@ email_app
 ### 1. Clone the Repository
 Add your credentials.json from Gmail API 
 ```bash
-git clone 
+git clone https://github.com/isha-harish/email_app.git
 cd email_app
 ```
 ### 2. Set Up a Virtual Environment (optional but recommended)
@@ -41,7 +41,7 @@ venv\Scripts\activate     # For Windows
 pip install -r requirements.txt
 ```
 
-### 4. Run the Streamlit App
+### 4. Run the Flask App
 ```bash
 python app.py 
 ```
